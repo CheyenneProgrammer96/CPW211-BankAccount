@@ -19,7 +19,7 @@ namespace BankAccount
         /// <param name="accOwner">The customer full name that owns the account</param>
         public Account(string accOwner)
         {
-            Owner = accOwner;
+            owner = accOwner;
         }
 
         /// <summary>
